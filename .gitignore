@@ -1,0 +1,46 @@
+# Ignore Eclipse files
+.classpath
+.project
+.settings/
+
+.properties
+
+# Ignore IDE-specific files
+*.iml
+.idea/
+.vscode/
+*.swp
+
+# === Maven/Java Specific ===
+# Ignore Maven output and temporary files
+target/
+*.log
+*.tmp
+*.bak
+*.out
+*.class
+
+# === Sensitive or Config Files ===
+# Ignore properties and configuration files (if sensitive)
+ src/main/resources/*.properties
+ .github/workflows/*.yml
+
+# === Git Specific ===
+# Ignore Git specific files
+*.orig
+*.rej
+
+# === Logs and Temp Files ===
+*\.log
+*.lock
+*.pid
+*.seed
+*.gz
+
+# === Other Tools ===
+# Ignore coverage reports
+coverage/
+*.lcov
+*.clover
+coverage-final.json
+/bin/
